@@ -1,0 +1,15 @@
+# Use LF for text files
+*.txt text eol=lf
+*.json text eol=lf
+*.fspro text eol=lf
+
+# Treat .bank files as binary and use git LFS
+*.bank filter=lfs diff=lfs merge=lfs -text
+*.strings.bank filter=lfs diff=lfs merge=lfs -text
+
+# Prevent Git from modifying binary files' line endings
+*.wav -text
+*.mp3 -text
+
+Assets/Plugins/FMOD/**/*.bundle text eol=lf
+Assets/Plugins/FMOD/**/Info.plist text eol=lf

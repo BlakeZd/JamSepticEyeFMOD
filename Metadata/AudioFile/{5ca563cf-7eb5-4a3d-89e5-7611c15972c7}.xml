@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5ca563cf-7eb5-4a3d-89e5-7611c15972c7}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
+		<property name="assetPath">
+			<value>Environment/DoorOpen.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.0787074829931973</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{30415581-3ec5-4a61-a6e7-ae05b84fb094}</destination>
+		</relationship>
+	</object>
+</objects>

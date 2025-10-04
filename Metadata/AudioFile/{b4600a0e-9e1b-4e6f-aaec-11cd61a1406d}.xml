@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b4600a0e-9e1b-4e6f-aaec-11cd61a1406d}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>PlayerSFX/CloakSFX/Cloak_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.42133786848072563</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{30415581-3ec5-4a61-a6e7-ae05b84fb094}</destination>
+		</relationship>
+	</object>
+</objects>

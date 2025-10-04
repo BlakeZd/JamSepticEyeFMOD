@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{e6cc7944-dd67-4578-8608-cc401a07ca2c}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="assetPath">
+			<value>PlayerSFX/CloakSFX/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{30415581-3ec5-4a61-a6e7-ae05b84fb094}</destination>
+		</relationship>
+	</object>
+</objects>
