@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{4d9f9a3f-f24b-4da1-8dff-4e1083c27d00}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>Cutscene02Music</value>
 		</property>
@@ -74,6 +77,7 @@
 			<destination>{2cab8d35-ef1c-4b1a-b321-01613c47b7ec}</destination>
 			<destination>{4d2aceb9-30a4-463f-87a5-906bfd1b82a8}</destination>
 			<destination>{877a3157-f359-4b37-808a-891a6c5cc88f}</destination>
+			<destination>{19d979fa-3818-429c-aad1-7cf4d08580da}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{01433ba5-b8b5-4233-ab0b-0d92d52865dc}">
@@ -178,6 +182,20 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{a237ba75-02e1-4bb3-8952-1d764d1d4a4b}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{19d979fa-3818-429c-aad1-7cf4d08580da}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{7f45f73b-0224-48a0-a264-9a6745cf1263}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{a237ba75-02e1-4bb3-8952-1d764d1d4a4b}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{877a3157-f359-4b37-808a-891a6c5cc88f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f6d3201d-4f09-497a-8b18-cf8242f97f5b}">

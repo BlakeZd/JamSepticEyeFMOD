@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{484421ac-bda6-446a-87b2-1d90c0a20f53}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>EndingMusic</value>
 		</property>
@@ -81,6 +84,8 @@
 		<relationship name="markers">
 			<destination>{b509867b-0cfb-429a-8c6f-ad1fc9629123}</destination>
 			<destination>{6b0d419a-846b-4914-9d5b-2d2bbf5d7616}</destination>
+			<destination>{9fa427d2-6c81-4e8c-82c5-d80b205ba1d5}</destination>
+			<destination>{deae712e-a8f0-4e51-be36-288802190f8d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a4ebd273-6ab5-4f5d-b9f7-8f16af1e27cb}">
@@ -219,6 +224,34 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{65ba4d46-8ea2-4157-af50-aeb9691d69a5}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{9fa427d2-6c81-4e8c-82c5-d80b205ba1d5}">
+		<property name="position">
+			<value>0.80357142857142849</value>
+		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c538ef8c-de12-473e-b9ec-b9eec7d709a9}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{65ba4d46-8ea2-4157-af50-aeb9691d69a5}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{deae712e-a8f0-4e51-be36-288802190f8d}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{c538ef8c-de12-473e-b9ec-b9eec7d709a9}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{65ba4d46-8ea2-4157-af50-aeb9691d69a5}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{9fa427d2-6c81-4e8c-82c5-d80b205ba1d5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cb571baa-09ec-442f-bc18-9cde9ab3d72c}">

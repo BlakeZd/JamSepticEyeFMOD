@@ -59,7 +59,7 @@
 			<destination>{81557ca5-4261-40aa-9b9f-ed93a50d8082}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30a98a8b-2245-46b3-b2c5-34ccf2fa926c}</destination>
+			<destination>{f1437332-2006-495f-887b-3a7ae7d22ae3}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3e5a1157-88b2-4a0d-864f-fb400c41dd4b}" />
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{92b237dc-11ce-4a36-ae37-3c09635b28e0}">
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{08e74f97-6c83-41df-8326-bea6daa60946}</destination>
 		</relationship>
@@ -115,10 +118,10 @@
 			<value>-8.5</value>
 		</property>
 		<property name="midGain">
-			<value>-0.5</value>
+			<value>-10</value>
 		</property>
 		<property name="highGain">
-			<value>-11.5</value>
+			<value>-8</value>
 		</property>
 		<property name="lowCrossover">
 			<value>420</value>
@@ -130,7 +133,7 @@
 	<object class="MixerBusFader" id="{4ce43a57-f7ee-4c30-a0da-ad6646e86772}" />
 	<object class="MixerSend" id="{797061b1-cae8-4cd4-80cd-bb32e1792e78}">
 		<property name="level">
-			<value>-13.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>0</value>

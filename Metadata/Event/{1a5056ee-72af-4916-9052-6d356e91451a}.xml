@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1a5056ee-72af-4916-9052-6d356e91451a}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>Music</value>
 		</property>
@@ -62,7 +65,7 @@
 			<destination>{149f086f-2ca5-4602-aec2-ddd1b07b8f94}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{30a98a8b-2245-46b3-b2c5-34ccf2fa926c}</destination>
+			<destination>{ebd9760f-1161-4d22-88e4-ee7bc1a00a25}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d8070889-6218-4356-9970-6085844eb45a}" />
@@ -98,7 +101,6 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{b853112b-2cb4-4a30-9af9-63d5e2e89dfa}">
-		<property name="name" />
 		<relationship name="event">
 			<destination>{874ce162-f449-4281-bf31-f05058da3d85}</destination>
 		</relationship>
@@ -107,7 +109,6 @@
 		<property name="start">
 			<value>1</value>
 		</property>
-		<property name="name" />
 		<relationship name="event">
 			<destination>{51c73436-a7ee-4c91-ac35-f4b38a18ec66}</destination>
 		</relationship>

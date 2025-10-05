@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{874ce162-f449-4281-bf31-f05058da3d85}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>MenuMusic</value>
 		</property>
@@ -69,6 +72,8 @@
 		<relationship name="markers">
 			<destination>{c115878f-8feb-4211-a8bf-4188b47364ca}</destination>
 			<destination>{f0c808e7-5003-4ffd-a280-914e91b52736}</destination>
+			<destination>{0055577f-bfce-4085-bbb8-50c7119c162c}</destination>
+			<destination>{9713f691-e486-4853-9e2e-2d73325c0554}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{4209478f-49e7-45bf-a9aa-f5a615e6283f}">
@@ -156,6 +161,34 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{9250ea0c-e063-4e10-8bae-e1ad1ec89a4c}</destination>
+		</relationship>
+	</object>
+	<object class="NamedMarker" id="{0055577f-bfce-4085-bbb8-50c7119c162c}">
+		<property name="position">
+			<value>1.2587412587412588</value>
+		</property>
+		<property name="name">
+			<value>Start</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{0fd895fa-5cab-4b5b-bfc1-784688bf4c5c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{9250ea0c-e063-4e10-8bae-e1ad1ec89a4c}</destination>
+		</relationship>
+	</object>
+	<object class="TransitionMarker" id="{9713f691-e486-4853-9e2e-2d73325c0554}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{0fd895fa-5cab-4b5b-bfc1-784688bf4c5c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{9250ea0c-e063-4e10-8bae-e1ad1ec89a4c}</destination>
+		</relationship>
+		<relationship name="destination">
+			<destination>{0055577f-bfce-4085-bbb8-50c7119c162c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{cd1bb15f-3f55-4af3-a7ad-957c89444da3}">
