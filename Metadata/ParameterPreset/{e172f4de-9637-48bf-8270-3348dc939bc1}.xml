@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e172f4de-9637-48bf-8270-3348dc939bc1}">
+		<property name="name">
+			<value>musictype</value>
+		</property>
+		<relationship name="folder">
+			<destination>{77cae883-a793-47ca-acf4-c9e74bc13499}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7658f4b5-a53d-444a-a075-464e07318cc1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7658f4b5-a53d-444a-a075-464e07318cc1}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>MenuMusic</value>
+			<value>Cutscene01Music</value>
+			<value>Cutscene02Music</value>
+			<value>VillageMusic</value>
+			<value>GroceryMusic</value>
+			<value>BakeryMusic</value>
+			<value>EndingMusic</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
