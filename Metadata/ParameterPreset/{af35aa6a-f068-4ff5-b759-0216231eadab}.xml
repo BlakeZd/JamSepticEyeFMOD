@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{e172f4de-9637-48bf-8270-3348dc939bc1}">
+	<object class="ParameterPreset" id="{af35aa6a-f068-4ff5-b759-0216231eadab}">
 		<property name="name">
-			<value>MusicType</value>
+			<value>GarbleChar</value>
 		</property>
 		<relationship name="folder">
 			<destination>{77cae883-a793-47ca-acf4-c9e74bc13499}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{7658f4b5-a53d-444a-a075-464e07318cc1}</destination>
+			<destination>{a293f366-070a-4e16-a4a8-ed06cef1bd25}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{7658f4b5-a53d-444a-a075-464e07318cc1}">
+	<object class="GameParameter" id="{a293f366-070a-4e16-a4a8-ed06cef1bd25}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>7</value>
+			<value>5</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>MenuMusic</value>
-			<value>Cutscene02Music</value>
-			<value>Cutscene01Music</value>
-			<value>VillageMusic</value>
-			<value>GroceryMusic</value>
-			<value>BakeryMusic</value>
-			<value>EndingMusic</value>
+			<value>Tim</value>
+			<value>Nurse</value>
+			<value>Baker</value>
+			<value>Peeper</value>
+			<value>Boy</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

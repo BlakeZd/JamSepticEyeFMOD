@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{f073ad87-753a-4fbe-ab6d-d7e5ef5cb1a5}">
+	<object class="AudioFile" id="{1c26998f-bea1-4ed1-8500-6ba29dfd0e46}">
 		<property name="color">
-			<value>Red</value>
+			<value>Blue Light 2</value>
 		</property>
 		<property name="assetPath">
-			<value>Music/03 Cutscene 02 (154bpm).wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Garb/Baker/Baker_04.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="length">
-			<value>65.844172335600902</value>
+			<value>0.54383219954648521</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{30415581-3ec5-4a61-a6e7-ae05b84fb094}</destination>

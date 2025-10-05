@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6780a3ac-8c62-4547-bbf2-7493bc0a49c9}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="assetPath">
 			<value>Music/05 Grocery (130bpm).wav</value>
 		</property>
